@@ -1,0 +1,170 @@
+html, body{
+  margin: 0 auto;
+  height: 100%;
+  font-family: 'Barlow';
+  scroll-behavior: smooth;
+}
+.top{
+  display: inline-grid;
+  align-items: center;
+  grid-template-columns: auto auto;
+  grid-column-gap: 300px;
+  padding: 10px;
+  background: #09071C;
+  color: white;
+  width: 100%;
+}
+.navigation ul a:hover{
+  color: #CE9510;
+}
+.navigation ul{
+list-style: none;
+text-align: center;
+margin-top: -40px;
+padding-bottom: 15px;
+}
+.navigation ul li{
+  display: inline-grid;
+  margin: 10px;
+}
+.navigation ul li a{
+  text-decoration: none;
+  color: black;
+}
+h2 {
+  text-align: center;
+}
+header {
+  background-color: white;
+  width: 100%;
+}
+.logo{
+  padding: 10px 25px;
+}
+.intro{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../Images/skyscraper.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  padding-top: 150px;
+  text-align: center;
+  color: white;
+}
+.intro p{
+  font-size: 20px;
+}
+.intro h1{
+  font-size: 50px;
+}
+#introbutton{
+  font-size: 20px;
+  padding: 15px;
+  width: 200px;
+  border: 2px solid #CE9510;
+  background-color: #CE9510;
+  color: white;
+}
+.grid-container{
+  display: grid;
+  grid-column-gap: 90px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  justify-content: center;
+}
+.grid-items{
+  border: 1px solid #CDCDCD;
+  font-size:20px;
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+}
+
+hr{
+  border: 0;
+  width: 50px;
+  color: #CE9510;
+  border-top: 1px solid #CE9510;
+}
+
+.services h2{
+  text-align: center;
+  font-size: 40px;
+}
+
+/* .grid-container p{
+  color: #CDCDCD;
+} */
+h5 {
+  font-size:  15px;
+  margin: 0 auto;
+}
+button{
+  font-size: 20px;
+  padding: 15px;
+  width: 250px;
+  border: 2px solid #CE9510;
+  background-color: #CE9510;
+  color: white;
+}
+
+.Services h2{
+  text-align: center;
+  font-size: 40px
+}
+
+/* .gridcontainer p{ */
+  /* color: #CDCDCD; */
+/* } */
+
+#MissionImage{
+  width: 30%;
+}
+
+.gridcontainer{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 20px;
+}
+.Mission{
+  background: #F2F3F8;
+  padding: 20px;
+  width: 80%;
+}
+.Benefits{
+  background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../Images/data.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 20px;
+  width: 109%;
+  margin-left: -87px;
+}
+.Benefits h4{
+  font-size: 30px;
+}
+#benefitlist{
+  list-style: none;
+}
+#benefitbutton{
+  font-size: 20px;
+  padding: 15px;
+  width: 300px;
+  border: 2px solid #CE9510;
+  background-color: #CE9510;
+  color: white;
+}
+.Clients{
+  background: #050522;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 20px;
+  border: 1px solid #CDCDCD;
+  height: 60px;
+}
+.Clients h4{
+  font-size: 30px;
+  font-weight: bold;
+
+}
